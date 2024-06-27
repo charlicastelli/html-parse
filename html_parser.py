@@ -120,7 +120,7 @@ class CustomHelpParser(argparse.ArgumentParser):
 
         def error(self, message):
             msg1 = "python3 html_parser.py -u <http://url> --href -f .js"
-            msg2 = "python3 html_parser.py"
+            msg2 = "python3 html_parser.py -h"
             self.exit(2, f"\n{iconError} Exemplo de uso da ferramenta:\n{msg1}\n{msg2}\n\n{message}\n\n")
 
 
